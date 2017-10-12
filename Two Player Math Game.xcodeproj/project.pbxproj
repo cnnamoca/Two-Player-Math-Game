@@ -15,6 +15,8 @@
 		E6D154261F8C462300493AA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6D154241F8C462300493AA5 /* LaunchScreen.storyboard */; };
 		E6D154311F8C462300493AA5 /* Two_Player_Math_GameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E6D154301F8C462300493AA5 /* Two_Player_Math_GameTests.m */; };
 		E6D1543C1F8C462300493AA5 /* Two_Player_Math_GameUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E6D1543B1F8C462300493AA5 /* Two_Player_Math_GameUITests.m */; };
+		E6D1544B1F8C472B00493AA5 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = E6D1544A1F8C472B00493AA5 /* Player.m */; };
+		E6D1544E1F8C473800493AA5 /* GameModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E6D1544D1F8C473800493AA5 /* GameModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		E6D154371F8C462300493AA5 /* Two Player Math GameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Two Player Math GameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6D1543B1F8C462300493AA5 /* Two_Player_Math_GameUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Two_Player_Math_GameUITests.m; sourceTree = "<group>"; };
 		E6D1543D1F8C462300493AA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6D154491F8C472B00493AA5 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		E6D1544A1F8C472B00493AA5 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		E6D1544C1F8C473800493AA5 /* GameModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameModel.h; sourceTree = "<group>"; };
+		E6D1544D1F8C473800493AA5 /* GameModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,10 @@
 				E6D1541C1F8C462300493AA5 /* ViewController.h */,
 				E6D1541D1F8C462300493AA5 /* ViewController.m */,
 				E6D1541F1F8C462300493AA5 /* Main.storyboard */,
+				E6D154491F8C472B00493AA5 /* Player.h */,
+				E6D1544A1F8C472B00493AA5 /* Player.m */,
+				E6D1544C1F8C473800493AA5 /* GameModel.h */,
+				E6D1544D1F8C473800493AA5 /* GameModel.m */,
 				E6D154221F8C462300493AA5 /* Assets.xcassets */,
 				E6D154241F8C462300493AA5 /* LaunchScreen.storyboard */,
 				E6D154271F8C462300493AA5 /* Info.plist */,
@@ -273,7 +283,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6D1544B1F8C472B00493AA5 /* Player.m in Sources */,
 				E6D1541E1F8C462300493AA5 /* ViewController.m in Sources */,
+				E6D1544E1F8C473800493AA5 /* GameModel.m in Sources */,
 				E6D1541B1F8C462300493AA5 /* AppDelegate.m in Sources */,
 				E6D154181F8C462300493AA5 /* main.m in Sources */,
 			);
@@ -507,6 +519,7 @@
 				E6D154421F8C462300493AA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E6D154431F8C462300493AA5 /* Build configuration list for PBXNativeTarget "Two Player Math GameTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +528,7 @@
 				E6D154451F8C462300493AA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E6D154461F8C462300493AA5 /* Build configuration list for PBXNativeTarget "Two Player Math GameUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +537,7 @@
 				E6D154481F8C462300493AA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
